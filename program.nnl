@@ -1,0 +1,13 @@
+initial 8x8
+design hi
+    X . X . . X X X
+    X . X . . . X .
+    X . X . . . X .
+    X . X . . . X .
+    X X X . . . X .
+    X . X . . . X .
+    X . X . . . X .
+    X . X . . X X X
+done
+clue hi
+blank hi

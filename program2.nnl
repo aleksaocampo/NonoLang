@@ -1,0 +1,15 @@
+initial 10x10
+design heart
+    . . X . . . . X . . 
+    . X X X . . X X X . 
+    X X X X X X X X X X 
+    X X X X X X X X X X
+    X X X X X X X X X X
+    . X X X X X X X X . 
+    . X X X X X X X X . 
+    . . X X X X X X . . 
+    . . . X X X X . . . 
+    . . . . X X . . . . 
+done
+clue heart
+generate heart

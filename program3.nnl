@@ -1,0 +1,21 @@
+initial 15x15
+design stickman
+    . . . . . . X X X . . . . . .
+    . . . . . X X X X X . . . . .
+    . . . . . X X X X X . . . . .
+    . . . . . . X X X . . . . . .
+    . . . . . . . X . . . . . . .
+    . . . . . . . X . . . . . . .
+    . . . . . . . X . . . . . . .
+    X X X X X X X X X X X X X X X
+    . . . . . . . X . . . . . . .
+    . . . . . . . X . . . . . . .
+    . . . . . . . X . . . . . . .
+    . . . . . . X . X . . . . . .
+    . . . . X . . . . . X . . . .
+    . . X . . . . . . . . . X . .
+    X . . . . . . . . . . . . . X
+done
+clue stickman
+generate stickman
+blank stickman

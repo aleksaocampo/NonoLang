@@ -1,0 +1,37 @@
+Program:
+    'initial' row=INT 'x' col=INT // initialize grid
+    designs*=Design // define a design
+    clues*=Clue // create clues
+    generate*=Generate // generate diagram
+    blank*=Blank
+;
+
+// defines a design
+Design:
+    'design' name=ID
+        patterns+=Pattern // patterns are made up of "X" and "."
+    'done'
+;
+
+Pattern:
+    /[X. ]+/
+;
+
+// creates clue for design
+Clue:
+    'clue' design=[Design]
+;
+
+// generate diagram
+Generate:
+    'generate' design=[Design]
+;
+
+// generate blank puzzle
+Blank:
+    'blank' design=[Design]
+;
+
+Comment:
+    /\/\*(.|\n)*?\*\// | /\/\/.*?$/
+;
