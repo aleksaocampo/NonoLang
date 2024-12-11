@@ -188,3 +188,10 @@ nono3 = NonoLang()
 nono_model3 = nono_mm.model_from_file('program3.nnl')
 nono3.interpret(nono_model3)
 print("----------------")
+
+# PROGRAM 4
+print("\nPROGRAM #4:")
+nono3 = NonoLang()
+nono_model3 = nono_mm.model_from_file('program4.nnl')
+nono3.interpret(nono_model3)
+print("----------------")
